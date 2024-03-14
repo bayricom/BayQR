@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView.image = BayQR.generate(qrData: "Hello World!", qrColor: .black, logo: UIImage(named: "bayrilogo"))
+        imageView.image = BayQR.generate(qrData: "Hello World!", qrColor: UIColor.black, logo: UIImage(named: "bayrilogo"))
         
     }
 

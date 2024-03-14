@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		X33fh1ug0cVBVymeQBKzB6QSdFQ=
+		GlSgX87HbrYKqBtA5KVnlMi37qk=
 		</data>
 		<key>Headers/BayQR-Swift.h</key>
 		<data>
-		dC+c9XuWqbEOn2TAyRiJwq2qg58=
+		HPbW7WzE0f8tRbrmDa1aYRTOtcY=
 		</data>
 		<key>Headers/BayQR.h</key>
 		<data>
@@ -18,39 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LbJK8OEu91HKKK0JdKr0qnuv+oo=
+		Bg20cWUZJJ+YcsONvply8H5z87I=
 		</data>
-		<key>Modules/BayQR.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/BayQR.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		3UTnK/VP6dzNcvumiQBvKqD6VNw=
+		FaeYp5iBH1QPE5IbZHY22H4WJD8=
 		</data>
-		<key>Modules/BayQR.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		dSdj8e583SdZV4yqLjTYjhdxDic=
-		</data>
-		<key>Modules/BayQR.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/BayQR.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
-		<key>Modules/BayQR.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/BayQR.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		rI2xzKRIAjOe6hS9WgvTzowCFk4=
+		9Re4k96S/gx9bHLtrukYxehyb4c=
 		</data>
-		<key>Modules/BayQR.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/BayQR.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MsfGmOwqEryuvmqZIj1vRUpUYaY=
-		</data>
-		<key>Modules/BayQR.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
-		</data>
-		<key>Modules/BayQR.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		j26ZgnNK6dwayddwsfWXn/Xv4MQ=
-		</data>
-		<key>Modules/BayQR.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		nmDOfu0TO+iy+VCo9u5ApHj4/Cc=
+		xdMCXl41r7kK76stWVvQA8rvCpY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sz8K4HyLzwGWvQpY8RqK/kzwGJtvx6TP7nm99byXNO0=
+			kuYEbt7V9J27BUBFWy8hqoKhv13X9SUGJvB8RlSeJ/4=
 			</data>
 		</dict>
 		<key>Headers/BayQR-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WtcM2+A1Tb6rp1b7QcUGRSs10IaAE+G23e67xXIa0IQ=
+			v1U17d/5aD+jVUbcOSf4RV2ns10JaA5QGAnIUPxA+Dk=
 			</data>
 		</dict>
 		<key>Headers/BayQR.h</key>
@@ -80,60 +64,32 @@
 			m48GTA6EI4gomaCntz5MuPoACI+QJflEPWK0TmGbp90=
 			</data>
 		</dict>
-		<key>Modules/BayQR.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/BayQR.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+fqyzlbWYq3C7qxkYBEw0QWTCvuO5+GhfUQ5eng2xo=
+			k9PiFlHb21R49OJOLlcwBsDFLZUUloQG7WiSNExZvXM=
 			</data>
 		</dict>
-		<key>Modules/BayQR.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TESnkVjz++OrLRZCaJyDs3O9SfNBfNtKJOEymLjqM/o=
-			</data>
-		</dict>
-		<key>Modules/BayQR.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/BayQR.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
-		<key>Modules/BayQR.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/BayQR.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ca0fM04nldL5SY/0vEHWl/5NbUNHK7AAcw1uowhDKG4=
+			dKcYVEJk8MVfDX1cBAeDnhZOkx9Dv/6R7UnDKnY0s34=
 			</data>
 		</dict>
-		<key>Modules/BayQR.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/BayQR.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mf9Ujj4pHYiPJtN0rkX9ZN4PX6hhs8ZSf+CwWgZ241Q=
-			</data>
-		</dict>
-		<key>Modules/BayQR.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
-			</data>
-		</dict>
-		<key>Modules/BayQR.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CTELHNAFLgIZNHqkJEXyf+FAlk3VzvHlY8HALTsna1U=
-			</data>
-		</dict>
-		<key>Modules/BayQR.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i3SZsMa7wRDTIbXbw+MlVmTHAks7AuZtmMj8p4/8sq8=
+			Fn4nKGlJ/jAzzz7qAu/Y8FN/8u8qNAB4qYF9kCO6mCA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
