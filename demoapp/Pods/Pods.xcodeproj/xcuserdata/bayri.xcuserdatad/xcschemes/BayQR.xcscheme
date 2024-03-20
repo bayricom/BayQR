@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D39614A5D452974742BFEFFFDEAB9A6"
-               BuildableName = "BayQR"
+               BuildableName = "BayQR.framework"
                BlueprintName = "BayQR"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

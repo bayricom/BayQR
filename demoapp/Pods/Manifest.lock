@@ -2,15 +2,20 @@ PODS:
   - BayQR (1.0.0)
 
 DEPENDENCIES:
-  - BayQR (from `./framework/`)
+  - BayQR (from `https://github.com/bayricom/BayQR.git`)
 
 EXTERNAL SOURCES:
   BayQR:
-    :path: "./framework/"
+    :git: https://github.com/bayricom/BayQR.git
+
+CHECKOUT OPTIONS:
+  BayQR:
+    :commit: c610471884f3f16e16af1c913add5b9eb1895ba5
+    :git: https://github.com/bayricom/BayQR.git
 
 SPEC CHECKSUMS:
   BayQR: bc36928b715338de62ff61d1d0472e062086894e
 
-PODFILE CHECKSUM: 92707dae6ad232bfc9e4b5e9fa5859d8d74ef174
+PODFILE CHECKSUM: a64fc03b6bb0724d069fe6eeee9e7abc80e86690
 
 COCOAPODS: 1.15.2
