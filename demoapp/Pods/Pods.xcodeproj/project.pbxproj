@@ -33,7 +33,7 @@
 		3D1E52C439BF91E817BF1C2556459508 /* BayQR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BayQR-umbrella.h"; sourceTree = "<group>"; };
 		46AFFE2DA1D45222BF8764F38B2AF9E8 /* Pods-demoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demoapp.debug.xcconfig"; sourceTree = "<group>"; };
 		47A5F602FFB0F1ACA172AE18C3164406 /* BayQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BayQR.release.xcconfig; sourceTree = "<group>"; };
-		4A60CC89F8F4DE6AF487674AFCDD411C /* BayQR */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BayQR; path = BayQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A60CC89F8F4DE6AF487674AFCDD411C /* BayQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BayQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57028DB16279A178F5AD5402A085E711 /* Pods-demoapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-demoapp.modulemap"; sourceTree = "<group>"; };
 		5E81137CFAB2837F5D6EF788B0557186 /* BayQR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BayQR.modulemap; sourceTree = "<group>"; };
 		605A6B2286B5106B61F93CAC94E6816A /* BayQR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BayQR-prefix.pch"; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		75A9DF59A8AC70B12F06E9F1EBEB3E26 /* Pods-demoapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demoapp-acknowledgements.plist"; sourceTree = "<group>"; };
 		76EE11EC4A52D02F17244D365204CC47 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF42DD09376054731CBAB7614115C4A /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B394CE40ED0290059BA390F870118706 /* Pods-demoapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demoapp-umbrella.h"; sourceTree = "<group>"; };
 		DBBBCEE22B94F609E22564BA4835871B /* BayQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BayQR.debug.xcconfig; sourceTree = "<group>"; };
 		DFD5F55551AE16D9CE6C92E8EC4A2015 /* Pods-demoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demoapp.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		48CFF9F6B794183D9EC5359204B1F68D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A60CC89F8F4DE6AF487674AFCDD411C /* BayQR */,
+				4A60CC89F8F4DE6AF487674AFCDD411C /* BayQR.framework */,
 				173A2055BE3540518360C96E10EE3042 /* Pods-demoapp */,
 			);
 			name = Products;
@@ -105,7 +105,6 @@
 				236AA286F1E1097F4D4B02F38D0EEBEF /* Main.storyboard */,
 				57604378965CF3E8DEEC85C26F1CAB10 /* Support Files */,
 			);
-			name = BayQR;
 			path = BayQR;
 			sourceTree = "<group>";
 		};
@@ -223,7 +222,7 @@
 			);
 			name = BayQR;
 			productName = BayQR;
-			productReference = 4A60CC89F8F4DE6AF487674AFCDD411C /* BayQR */;
+			productReference = 4A60CC89F8F4DE6AF487674AFCDD411C /* BayQR.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -364,6 +363,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBBBCEE22B94F609E22564BA4835871B /* BayQR.debug.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,6 +527,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47A5F602FFB0F1ACA172AE18C3164406 /* BayQR.release.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

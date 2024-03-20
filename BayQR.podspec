@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.swift_versions = "5.0"
   spec.ios.deployment_target  = '13.0'
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-  spec.vendored_frameworks = 'demoapp/framework/BayQR.framework'
+  spec.vendored_frameworks = 'BayQR.framework'
 end
