@@ -2,15 +2,15 @@ PODS:
   - BayQR (1.0.0)
 
 DEPENDENCIES:
-  - BayQR (from `../Framework/`)
+  - BayQR (from `./framework/`)
 
 EXTERNAL SOURCES:
   BayQR:
-    :path: "../Framework/"
+    :path: "./framework/"
 
 SPEC CHECKSUMS:
-  BayQR: 96059a3b2fe9078439e4d2fe5eb38b7a95fcef5c
+  BayQR: bc36928b715338de62ff61d1d0472e062086894e
 
-PODFILE CHECKSUM: 0721f873aef464b66adfdd710d39c0e0aa6439e9
+PODFILE CHECKSUM: 92707dae6ad232bfc9e4b5e9fa5859d8d74ef174
 
 COCOAPODS: 1.15.2

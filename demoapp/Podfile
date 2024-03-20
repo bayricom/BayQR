@@ -6,6 +6,6 @@ target 'demoapp' do
   use_frameworks!
 
   # Pods for demoapp
-  pod 'BayQR', :path => '../Framework/'
+  pod 'BayQR', :path => './framework/'
 
 end

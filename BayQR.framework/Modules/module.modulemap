@@ -1,0 +1,11 @@
+framework module BayQR {
+  umbrella header "BayQR.h"
+  export *
+
+  module * { export * }
+}
+
+module BayQR.Swift {
+  header "BayQR-Swift.h"
+  requires objc
+}

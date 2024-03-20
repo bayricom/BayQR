@@ -18,10 +18,11 @@
     "git": "https://github.com/bayricom/BayQR.git",
     "tag": "1.0.0"
   },
-  "source_files": "demoapp/**/*.{storyboard,xib,xcassets}",
+  "source_files": "demoapp/**/*.{storyboard,xib,xcassets,framework}",
   "swift_versions": "5.0",
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "5.0"
   },
+  "vendored_frameworks": "demoapp/framework/BayQR.framework",
   "swift_version": "5.0"
 }

@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		784E5FB4FBBD83959FB1F2E158FAE82B /* PBXContainerItemProxy */ = {
+		B3C4512483CB6477CC31D8868D653938 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,19 +36,20 @@
 
 /* Begin PBXFileReference section */
 		173A2055BE3540518360C96E10EE3042 /* Pods-demoapp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-demoapp"; path = Pods_demoapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2712645F692F9A84057C456AA150EB6E /* BayQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BayQR.debug.xcconfig; sourceTree = "<group>"; };
 		3A09DC09F8C3127F129E2524C6A4A48F /* Pods-demoapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-demoapp.modulemap"; sourceTree = "<group>"; };
-		4DD8E8DC9A60B322CD6845233ABF211A /* BayQR.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BayQR.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B6554BF952B7F326AE6EDBA4CA2020D /* BayQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BayQR.release.xcconfig; sourceTree = "<group>"; };
+		58A44C6526D27C947E6C9EB6D455B7EB /* BayQR.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BayQR.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C41078007FB9F2C257AD46D082842FA /* Pods-demoapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demoapp-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E20C37C323241B2151FC1258340587 /* Pods-demoapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demoapp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74507F3BDC03B1A0CC97CF417EFD2C53 /* Pods-demoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demoapp.debug.xcconfig"; sourceTree = "<group>"; };
-		7642DFA5C57CE330B36103208712689A /* BayQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BayQR.release.xcconfig; sourceTree = "<group>"; };
 		8752190333DF1F31EC9BEFA1E329FEC0 /* Pods-demoapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demoapp-acknowledgements.plist"; sourceTree = "<group>"; };
 		98C0587CAD7058B52827893AB1A6A6D6 /* Pods-demoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demoapp.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3F29125C02BD4465680034A324EF8D4 /* Pods-demoapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demoapp-dummy.m"; sourceTree = "<group>"; };
 		F1BC2C181D20BEA9DC8F8136134A8646 /* Pods-demoapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demoapp-Info.plist"; sourceTree = "<group>"; };
-		F2E774BAB3013DB9AD1D4FE914089882 /* BayQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BayQR.debug.xcconfig; sourceTree = "<group>"; };
+		FE7C0082DE8EE290BFEBD5E0D6F8A84A /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +64,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40A3DF6CD99D9DDCF14B947239650B77 /* BayQR */ = {
+			isa = PBXGroup;
+			children = (
+				4E841E92CBEE21DA200600F2EEE6C62C /* Pod */,
+				999D724D9F80F865A66F93708A7B93C1 /* Support Files */,
+			);
+			name = BayQR;
+			path = ../framework;
+			sourceTree = "<group>";
+		};
 		4C2DD462F81AAA5E9DA4D3E2E0135A06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				173A2055BE3540518360C96E10EE3042 /* Pods-demoapp */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4E841E92CBEE21DA200600F2EEE6C62C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				58A44C6526D27C947E6C9EB6D455B7EB /* BayQR.podspec */,
+				FE7C0082DE8EE290BFEBD5E0D6F8A84A /* LICENSE.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -103,35 +123,33 @@
 			path = "Target Support Files/Pods-demoapp";
 			sourceTree = "<group>";
 		};
-		7C00CF467BD6D33ED49383F6ED50A776 /* Support Files */ = {
+		999D724D9F80F865A66F93708A7B93C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2E774BAB3013DB9AD1D4FE914089882 /* BayQR.debug.xcconfig */,
-				7642DFA5C57CE330B36103208712689A /* BayQR.release.xcconfig */,
+				2712645F692F9A84057C456AA150EB6E /* BayQR.debug.xcconfig */,
+				4B6554BF952B7F326AE6EDBA4CA2020D /* BayQR.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../demoapp/Pods/Target Support Files/BayQR";
+			path = "../Pods/Target Support Files/BayQR";
+			sourceTree = "<group>";
+		};
+		C8751188AF19EAEF6909F9C94B37BEC5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40A3DF6CD99D9DDCF14B947239650B77 /* BayQR */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D675828E2BB20E8F060DB852F54B33E6 /* Development Pods */,
+				C8751188AF19EAEF6909F9C94B37BEC5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4C2DD462F81AAA5E9DA4D3E2E0135A06 /* Products */,
 				6B8373E9279EAD8D4021579946238D7E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF7FE2B7A8152FB5ADC4DA2C37983F60 /* BayQR */ = {
-			isa = PBXGroup;
-			children = (
-				ED066AD9E351A89805E0DA62E542E75A /* Pod */,
-				7C00CF467BD6D33ED49383F6ED50A776 /* Support Files */,
-			);
-			name = BayQR;
-			path = ../../Framework;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -140,22 +158,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D675828E2BB20E8F060DB852F54B33E6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CF7FE2B7A8152FB5ADC4DA2C37983F60 /* BayQR */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		ED066AD9E351A89805E0DA62E542E75A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4DD8E8DC9A60B322CD6845233ABF211A /* BayQR.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +186,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				75952D2774BE17CDBF1CA26194CC4F6B /* PBXTargetDependency */,
+				F99BFA5CDAD8894E7336C0D6BDECB256 /* PBXTargetDependency */,
 			);
 			name = "Pods-demoapp";
 			productName = Pods_demoapp;
@@ -241,11 +243,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		75952D2774BE17CDBF1CA26194CC4F6B /* PBXTargetDependency */ = {
+		F99BFA5CDAD8894E7336C0D6BDECB256 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BayQR;
 			target = 8D39614A5D452974742BFEFFFDEAB9A6 /* BayQR */;
-			targetProxy = 784E5FB4FBBD83959FB1F2E158FAE82B /* PBXContainerItemProxy */;
+			targetProxy = B3C4512483CB6477CC31D8868D653938 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -289,7 +291,7 @@
 		};
 		79007E2A5228432D97F6B368C1938E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2E774BAB3013DB9AD1D4FE914089882 /* BayQR.debug.xcconfig */;
+			baseConfigurationReference = 2712645F692F9A84057C456AA150EB6E /* BayQR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,7 +436,7 @@
 		};
 		AC9720C02DEB016C921824880D426C75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7642DFA5C57CE330B36103208712689A /* BayQR.release.xcconfig */;
+			baseConfigurationReference = 4B6554BF952B7F326AE6EDBA4CA2020D /* BayQR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
