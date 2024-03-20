@@ -1,0 +1,234 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BayQR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BayQR",
+        "printedName": "BayQR",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "generate",
+            "printedName": "generate(qrData:qrColor:logo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BayQRAAC8generate6qrData0D5Color4logoSo7UIImageCSS_So7UIColorCAHSgtFZ",
+            "mangledName": "$s5BayQRAAC8generate6qrData0D5Color4logoSo7UIImageCSS_So7UIColorCAHSgtFZ",
+            "moduleName": "BayQR",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5BayQRAAC",
+        "mangledName": "$s5BayQRAAC",
+        "moduleName": "BayQR",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BayQR"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BayQR"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BayQR"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "BayQR"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 11,
+      "value": "\"defaultQR\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 19,
+      "value": "\"CIQRCodeGenerator\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1023,
+      "length": 14,
+      "value": "\"inputMessage\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1100,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1107,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 15,
+      "value": "\"CIColorInvert\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 12,
+      "value": "\"inputImage\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1620,
+      "length": 15,
+      "value": "\"CIMaskToAlpha\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 12,
+      "value": "\"inputImage\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1937,
+      "length": 23,
+      "value": "\"CIMultiplyCompositing\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 26,
+      "value": "\"CIConstantColorGenerator\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 25,
+      "value": "\"CISourceOverCompositing\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2699,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2748,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 2832,
+      "length": 12,
+      "value": "\"inputImage\""
+    },
+    {
+      "filePath": "\/Users\/bayri\/Desktop\/Apps\/BayQR\/BayQR\/QRGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 2892,
+      "length": 22,
+      "value": "\"inputBackgroundImage\""
+    },
+    {
+      "filePath": "\/tmp\/iphoneos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BayQR\/IntermediateBuildFilesPath\/BayQR.build\/Release-iphonesimulator\/BayQR.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 11,
+      "value": "\"defaultQR\""
+    }
+  ]
+}

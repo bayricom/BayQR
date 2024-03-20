@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: d19ec0d6490171c716c8ca89f12f0804d5be2e8e
+PODS:
+  - BayQR (1.0.0)
+
+DEPENDENCIES:
+  - BayQR (from `https://github.com/bayricom/BayQR.git`)
+
+EXTERNAL SOURCES:
+  BayQR:
+    :git: https://github.com/bayricom/BayQR.git
+
+CHECKOUT OPTIONS:
+  BayQR:
+    :commit: 980412d0fab2bbb3c82809e2975e1e42fdab80cf
+    :git: https://github.com/bayricom/BayQR.git
+
+SPEC CHECKSUMS:
+  BayQR: 4809ebf2e69cbc32a81fbf8cf220f5c2fc56928b
+
+PODFILE CHECKSUM: a64fc03b6bb0724d069fe6eeee9e7abc80e86690
 
 COCOAPODS: 1.15.2

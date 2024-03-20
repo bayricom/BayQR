@@ -6,6 +6,6 @@ target 'demoapp' do
   use_frameworks!
 
   # Pods for demoapp
-   #pod 'BayQR', :git => 'https://github.com/bayricom/BayQR.git'
+  pod 'BayQR', :git => 'https://github.com/bayricom/BayQR.git'
 
 end

@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-demoapp/Pods-demoapp-frameworks.sh
-${BUILT_PRODUCTS_DIR}/BayQR/BayQR.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/BayQR/BayQR.framework/BayQR
