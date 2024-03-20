@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author         = { "Bayri" => "github@bayri.com.tr" }
   spec.platform       = :ios, "13.0"
   spec.source         = { :git => "https://github.com/bayricom/BayQR.git", :tag => "1.0.0" }
-  spec.source_files   = "demoapp/**/*.{storyboard,xib,xcassets,framework}"
+  spec.source_files   = "*.{storyboard,xib,xcassets,framework}"
   spec.swift_versions = "5.0"
   spec.ios.deployment_target  = '13.0'
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
