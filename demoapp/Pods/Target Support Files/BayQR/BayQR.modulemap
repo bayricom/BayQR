@@ -1,6 +1,0 @@
-framework module BayQR {
-  umbrella header "BayQR-umbrella.h"
-
-  export *
-  module * { export * }
-}
