@@ -37,7 +37,7 @@ Install CocoaPods if not already available:
 $ [sudo] gem install cocoapods
 $ pod setup
 ```
-Go to the directory of your Xcode project, and Create and Edit your Podfile and add _QRCodeReader.swift_ to your corresponding `TargetName`:
+Go to the directory of your Xcode project, and Create and Edit your Podfile and add _QRCode.swift_ to your corresponding `TargetName`:
 
 ```bash
 $ cd /path/to/MyProject
