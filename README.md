@@ -4,7 +4,7 @@
     
 # BayQR
 
-This is the best basic framework to generate qr code.
+This is the best framework to generate qr code.
 
 
 ## Usage
