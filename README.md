@@ -18,7 +18,6 @@ BayQR.generate(qrData: "Bayri", qrColor: .black)
 // QR with image
 BayQR.generate(qrData: "Bayri", qrColor: .blue, logo: UIImage(named: "Asset"))
 ```
-
     
   
 ## Requirements
