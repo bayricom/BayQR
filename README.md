@@ -1,5 +1,5 @@
 
-![Logo](https://bayri.com.tr/images/github/qr.png)
+![Logo](https://bayri.com.tr/images/github/qr1.png)
 
     
 # BayQR
